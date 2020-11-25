@@ -45,7 +45,6 @@ public class LinkedList<E> {
 //        head = node;
 
         add(0, e);
-        size ++;
     }
 
     //在链表的index(0-based)位置添加一个新的元素e（在链表中不常用该操作，此处用作练习）
