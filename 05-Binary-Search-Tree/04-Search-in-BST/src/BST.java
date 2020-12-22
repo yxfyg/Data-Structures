@@ -70,5 +70,4 @@ public class BST<E extends Comparable<E>> {
             return contains(node.right, e);
         }
     }
-
 }
