@@ -30,7 +30,7 @@ public class BST<E extends Comparable<E>> {
 
     //将元素e添加到二分搜索树中
     public void add(E e){
-        add(root, e);
+        root = add(root, e);
     }
 
     //向以node为根的二分搜索树中插入元素e，递归算法
